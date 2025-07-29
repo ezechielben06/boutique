@@ -167,7 +167,7 @@ const UtilityTools = () => {
               className="bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 overflow-hidden group"
             >
               {/* Tool Image */}
-              <div className="h-48 bg-gray-100 flex items-center justify-center p-6">
+              <div className="h-48 bg-gray-100 flex items-center justify-center ">
                 <img
                   src={tool.image}
                   alt={tool.name}
