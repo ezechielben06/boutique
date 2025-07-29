@@ -13,7 +13,7 @@ import {
 
 // Images en base64 (remplacez par vos propres images)
 const toolImages = {
-  formBuilder: "public/tools_images/image.png",
+  formBuilder: "/tools_images/image.png",
 };
 
 const UtilityTools = () => {
