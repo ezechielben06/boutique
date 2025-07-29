@@ -14,7 +14,8 @@ import {
 // Images en base64 (remplacez par vos propres images)
 const toolImages = {
   formBuilder: "/tools_images/image.png",
-  ListeTache: "/tools_images/image2.png"
+  ListeTache: "/tools_images/image2.png",
+  cvbuilder: "/tools_images/image3.png"
 };
 
 const UtilityTools = () => {
@@ -57,17 +58,31 @@ const UtilityTools = () => {
       category: "web",
       description: "Tâche-Liste est une application de gestion de tâches minimaliste qui permet à l’utilisateur de créer, modifier, compléter et supprimer des tâches via une interface claire et responsive.",
       features: [
-        "créer ",
-        " modifier",
-        " compléter",
-        "Déclencheurs multiples",
-        "supprimer"
+        "créer une tâche",
+        " modifier une tâche",
+        "supprimer une tâche"
       ],
       rating: 4.1,
       downloads: "2.8k",
       image: toolImages.ListeTache,
       isNew: true,
       downloadLink: "https://tacheliste.netlify.app/",
+    },
+    {
+      id: 3,
+      name: "CV-Builder",
+      category: "web",
+      description: "CV-Builder est un outil interactif permettant de créer facilement un CV professionnel directement depuis une interface web, il offre une expérience fluide et moderne pour générer un CV structuré sans connaissances en design ou en code.",
+      features: [
+        "créer votre cv",
+        " modifier votre cv",
+        " compléter votre cv"
+      ],
+      rating: 4.9,
+      downloads: "2.8k",
+      image: toolImages.cvbuilder,
+      isNew: true,
+      downloadLink: "https://cvbuilder06.netlify.app/",
     }
   ];
 
