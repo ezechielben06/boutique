@@ -14,6 +14,7 @@ import {
 // Images en base64 (remplacez par vos propres images)
 const toolImages = {
   formBuilder: "/tools_images/image.png",
+  ListeTache: "/tools_images/image2.png"
 };
 
 const UtilityTools = () => {
@@ -50,6 +51,24 @@ const UtilityTools = () => {
       isNew: true,
       downloadLink: "https://formbuilder06.netlify.app/",
     },
+    {
+      id: 2,
+      name: "Tâche-Liste",
+      category: "web",
+      description: "Tâche-Liste est une application de gestion de tâches minimaliste qui permet à l’utilisateur de créer, modifier, compléter et supprimer des tâches via une interface claire et responsive.",
+      features: [
+        "créer ",
+        " modifier",
+        " compléter",
+        "Déclencheurs multiples",
+        "supprimer"
+      ],
+      rating: 4.1,
+      downloads: "2.8k",
+      image: toolImages.formBuilder,
+      isNew: true,
+      downloadLink: "https://tacheliste.netlify.app/",
+    }
   ];
 
   const filteredTools = useMemo(() => {
