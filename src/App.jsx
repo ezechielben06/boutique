@@ -13,9 +13,8 @@ import {
 
 // Images en base64 (remplacez par vos propres images)
 const toolImages = {
-  formBuilder:
-    "public/tools_images/image.png",
-  };
+  formBuilder: "public/tools_images/image.png",
+};
 
 const UtilityTools = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -37,9 +36,9 @@ const UtilityTools = () => {
     {
       id: 1,
       name: "Form-Buider",
-      category: "automation",
+      category: "web",
       description:
-        "Automatisez vos workflows avec des scripts configurables et une interface intuitive.",
+        "FormBuilder est un générateur de formulaires interactif qui permet aux utilisateurs de créer des formulaires personnalisés via une interface graphique intuitive, puis de générer automatiquement le code HTML et CSS correspondant.",
       features: [
         "Workflows visuels",
         "Intégrations API",
@@ -330,7 +329,8 @@ const UtilityTools = () => {
               </a>
             </div>
             <div className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} DevTools Pro| ezechielben06-Tous droits réservés.
+              © {new Date().getFullYear()} DevTools Pro| ezechielben06-Tous
+              droits réservés.
             </div>
           </div>
         </div>
