@@ -15,7 +15,8 @@ import {
 const toolImages = {
   formBuilder: "/tools_images/image.png",
   ListeTache: "/tools_images/image2.png",
-  cvbuilder: "/tools_images/image3.png"
+  cvbuilder: "/tools_images/image3.png",
+  unsplash: "/tools_images/image4.png",
 };
 
 const UtilityTools = () => {
@@ -49,41 +50,56 @@ const UtilityTools = () => {
       rating: 4.8,
       downloads: "2.3k",
       image: toolImages.formBuilder,
-      isNew: true,
+      isNew: false,
       downloadLink: "https://formbuilder06.netlify.app/",
     },
     {
       id: 2,
       name: "Tâche-Liste",
       category: "web",
-      description: "Tâche-Liste est une application de gestion de tâches minimaliste qui permet à l’utilisateur de créer, modifier, compléter et supprimer des tâches via une interface claire et responsive.",
+      description:
+        "Tâche-Liste est une application de gestion de tâches minimaliste qui permet à l’utilisateur de créer, modifier, compléter et supprimer des tâches via une interface claire et responsive.",
       features: [
         "créer une tâche",
         " modifier une tâche",
-        "supprimer une tâche"
+        "supprimer une tâche",
       ],
       rating: 4.1,
       downloads: "2.8k",
       image: toolImages.ListeTache,
-      isNew: true,
+      isNew: false,
       downloadLink: "https://tacheliste.netlify.app/",
     },
     {
       id: 3,
       name: "CV-Builder",
       category: "web",
-      description: "CV-Builder est un outil interactif permettant de créer facilement un CV professionnel directement depuis une interface web, il offre une expérience fluide et moderne pour générer un CV structuré sans connaissances en design ou en code.",
-      features: [
-        "créer votre cv",
-        " modifier votre cv",
-        " compléter votre cv"
-      ],
+      description:
+        "CV-Builder est un outil interactif permettant de créer facilement un CV professionnel directement depuis une interface web, il offre une expérience fluide et moderne pour générer un CV structuré sans connaissances en design ou en code.",
+      features: ["créer votre cv", " modifier votre cv", " compléter votre cv"],
       rating: 4.9,
       downloads: "2.8k",
       image: toolImages.cvbuilder,
-      isNew: true,
+      isNew: false,
       downloadLink: "https://cvbuilder06.netlify.app/",
-    }
+    },
+    {
+      id: 4,
+      name: "Unsplash downloader",
+      category: "web",
+      description:
+        "Unsplash Pro Downloader est une plateforme interactive permettant de découvrir et télécharger facilement des images haute résolution directement depuis une interface web intuitive. Il offre une expérience premium et fluide pour accéder à une vaste bibliothèque d'images professionnelles sans compétences techniques ou connaissances en design",
+      features: [
+        "chercher des images",
+        " choisir la qualité",
+        " télécharger l'image",
+      ],
+      rating: 4.9,
+      downloads: "2.8k",
+      image: toolImages.unsplash,
+      isNew: false,
+      downloadLink: "https://cvbuilder06.netlify.app/",
+    },
   ];
 
   const filteredTools = useMemo(() => {
