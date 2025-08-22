@@ -98,7 +98,7 @@ const UtilityTools = () => {
       downloads: "2.8k",
       image: toolImages.unsplash,
       isNew: false,
-      downloadLink: "https://cvbuilder06.netlify.app/",
+      downloadLink: "https://unsplashdownloader56.netlify.app/",
     },
   ];
 
